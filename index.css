@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    background-color: #007C80;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 0;
+
+}
+.header{
+    background-color:#045F5F ;
+    margin: 0;
+    width: 100%;
+    height: 80px;
+}
+#heads{
+    margin: 0;
+    padding-top: 0px;
+    text-decoration: none;
+    font-weight: 550;
+    font-size:40px ;
+    color: white;
+    position: relative;
+    display: inline;
+    float:left;
+    left: 130px;
+    top: 18px;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: inline;
+    border-radius: 50%;
+    float:left;
+    left: 50px;
+    top: 10px; 
+}
+#home,#inst,#fb{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    display: inline;
+    border-radius:50%;
+    float:right;
+    right: 50px;
+    top: 17px;
+    margin-right:15px; 
+}
+input,select{
+    border-radius: 4%;
+    background-color:white ;
+    color: black;
+    width: 200px;
+    height: 19px;
+}
+#submit{
+    width: 70px;
+    height:25px;
+}
+label{
+    font-weight: 550;
+}
+h1,h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+img{
+    border-radius: 10%;
+    transition: 1s;
+}
+form{
+    text-align: center;
+}
+div{
+    min-width:100px ;
+    text-align: center;
+}
+footer{
+    background-color:#045F5F ;
+    margin: 0;
+    width: 100%;
+    height: 90px;
+    font-weight: 600;
+}
+.Discover{
+    background-color: #004646;
+    text-align: center;
+    width: 900;
+    height: 100%;
+    border-radius: 6%;
+}
+#email{
+    text-decoration: none;
+    color: white;
+}
+#heads:hover{
+    color:hsl(180, 40%, 73%);
+}
+img:hover{
+      border-radius: 0%;
+      width: 275px;
+      height: 275px;
+      box-shadow: 15px 15px 20px #0bee62, -15px -15px 15px #0be0e0 ;
+      transition: 1s;
+}
+#home:hover{
+    border-radius: 0%;
+    width: 50px;
+    height: 50px;
+    
+}
+#fb:hover{
+    border-radius: 0%;
+    width: 50px;
+    height: 50px;
+}
+#inst:hover{
+    border-radius: 0%;
+    width: 50px;
+    height: 50px;
+}
+#logo:hover{
+    border-radius: 0%;
+    width: 50px;
+    height: 50px;
+}
+
